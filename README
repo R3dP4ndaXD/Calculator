@@ -1,0 +1,14 @@
+Numerele si operatorii ii salvez in cate un vector pentru o prelucrare usoara;
+task1: 
+        parcurg operatorii in ordinea in care apar si efectuez operatiile aferente;
+
+task2:
+        evaluez succesiv expresia tinand cont de precedenta operatorilor si de eventuale cazuri speciale;
+        fiecare operator aplicat este eliminata din vector, rezultatul operatiei numerice se salveaza in termenul din stanga, 
+        iar al doilea termen se elimina din vector;
+        Cu fiecare evaluare a expresiei se cauta toate situatiile in care pot aparea toti operatorii pentru a putea efectua cat mai multe operatii cu cat mai putine verificari ale elementelor din vectori.
+        Pe langa precedenta operatorilor, pot aparea cazuri in care dupa efectuarea unor operatii de '*' sau '/'  sa existe un operator '-' neefectuat imediat in urma care sa schimbe intr-un fel semnul numarului care acum urmeaza dupa el 
+task3:
+        asemanator cu task2, doar ca pe langa introducerea operandului '#' cu precedenta intermediara in parcurgea liniara, pot aparea situatii in care un '#' neefectuat in urma sa ajunga sa fie urmat de '+' sau '-' care NU trebuie sa fie efectuat chiar daca la dreapta precedenta ar permite.
+
+
